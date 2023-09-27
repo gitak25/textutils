@@ -6,6 +6,7 @@ import Alert from './components/Alert';
 
 function App() {
   const[mode,setMode]=useState('light');
+  //g88tajo jh y
   const [alert, setAlert] = useState(null);
   const showAlert = (message, type) => {
         setAlert({
